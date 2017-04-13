@@ -21,8 +21,10 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="NATagTextView" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="FrZ-1v-SGx" customClass="NATagTextView" customModule="Demo" customModuleProvider="target">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="FrZ-1v-SGx" customClass="NATagTextView" customModule="Demo" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="343.5" width="375" height="323.5"/>
+                                <string key="text">NATagTextView
+</string>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
