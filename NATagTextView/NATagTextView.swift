@@ -64,7 +64,7 @@ public class NATagTextView: UITextView {
         NotificationCenter.default.removeObserver(self)
     }
 
-    public func textChanged(notification:NSNotification?) -> (Void) {
+    @objc private func textChanged(notification:NSNotification?) -> (Void) {
         let range = self.selectedTextRange
 
         if (self.markedTextRange == nil) {
