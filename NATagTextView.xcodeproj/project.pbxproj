@@ -10,6 +10,7 @@
 		E70E3BE01E98F64F007E53A8 /* NATagTextView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E70E3BD61E98F64E007E53A8 /* NATagTextView.framework */; };
 		E70E3BE51E98F64F007E53A8 /* NATagTextViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70E3BE41E98F64F007E53A8 /* NATagTextViewTests.swift */; };
 		E70E3BE71E98F64F007E53A8 /* NATagTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = E70E3BD91E98F64E007E53A8 /* NATagTextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E756F6631E9F5E6F00300C9D /* NATagTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E756F6621E9F5E6F00300C9D /* NATagTextView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +30,7 @@
 		E70E3BDF1E98F64F007E53A8 /* NATagTextViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NATagTextViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E70E3BE41E98F64F007E53A8 /* NATagTextViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NATagTextViewTests.swift; sourceTree = "<group>"; };
 		E70E3BE61E98F64F007E53A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E756F6621E9F5E6F00300C9D /* NATagTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NATagTextView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 			isa = PBXGroup;
 			children = (
 				E70E3BD91E98F64E007E53A8 /* NATagTextView.h */,
+				E756F6621E9F5E6F00300C9D /* NATagTextView.swift */,
 				E70E3BDA1E98F64E007E53A8 /* Info.plist */,
 			);
 			path = NATagTextView;
@@ -149,6 +152,7 @@
 					E70E3BD51E98F64E007E53A8 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = DEQGLB9PU4;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 					E70E3BDE1E98F64F007E53A8 = {
@@ -198,6 +202,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E756F6631E9F5E6F00300C9D /* NATagTextView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -322,6 +327,7 @@
 		E70E3BEB1E98F64F007E53A8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = DEQGLB9PU4;
@@ -334,6 +340,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = io.github.natmark.NATagTextView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -341,6 +348,7 @@
 		E70E3BEC1E98F64F007E53A8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = DEQGLB9PU4;
@@ -360,6 +368,7 @@
 		E70E3BEE1E98F64F007E53A8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = DEQGLB9PU4;
 				INFOPLIST_FILE = NATagTextViewTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -372,6 +381,7 @@
 		E70E3BEF1E98F64F007E53A8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = DEQGLB9PU4;
 				INFOPLIST_FILE = NATagTextViewTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -400,6 +410,7 @@
 				E70E3BEC1E98F64F007E53A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E70E3BED1E98F64F007E53A8 /* Build configuration list for PBXNativeTarget "NATagTextViewTests" */ = {
 			isa = XCConfigurationList;
@@ -408,6 +419,7 @@
 				E70E3BEF1E98F64F007E53A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
