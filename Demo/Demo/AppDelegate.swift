@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  Demo
 //
-//  Created by AtsuyaSato on 2017/04/08.
+//  Created by AtsuyaSato on 2017/04/13.
 //  Copyright © 2017年 Atsuya Sato. All rights reserved.
 //
 
@@ -43,4 +43,3 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
 }
-
