@@ -17,8 +17,6 @@ class ViewController: UIViewController,NATagTextViewDelegate,UITableViewDelegate
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         tagTextView.delegate = self
-        tagTextView.tagColor = UIColor.green
-        tagTextView.symbol = "@"
 
         tableView.delegate = self
         tableView.dataSource = self
