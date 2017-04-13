@@ -11,6 +11,7 @@
 		E70E3BE51E98F64F007E53A8 /* NATagTextViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70E3BE41E98F64F007E53A8 /* NATagTextViewTests.swift */; };
 		E70E3BE71E98F64F007E53A8 /* NATagTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = E70E3BD91E98F64E007E53A8 /* NATagTextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E756F6631E9F5E6F00300C9D /* NATagTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E756F6621E9F5E6F00300C9D /* NATagTextView.swift */; };
+		E77AF7FC1E9FC88F00AF14E5 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77AF7FB1E9FC88F00AF14E5 /* String.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +32,7 @@
 		E70E3BE41E98F64F007E53A8 /* NATagTextViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NATagTextViewTests.swift; sourceTree = "<group>"; };
 		E70E3BE61E98F64F007E53A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E756F6621E9F5E6F00300C9D /* NATagTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NATagTextView.swift; sourceTree = "<group>"; };
+		E77AF7FB1E9FC88F00AF14E5 /* String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = String.swift; path = Extension/String.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 			children = (
 				E70E3BD91E98F64E007E53A8 /* NATagTextView.h */,
 				E756F6621E9F5E6F00300C9D /* NATagTextView.swift */,
+				E77AF7FA1E9FC87B00AF14E5 /* Extension */,
 				E70E3BDA1E98F64E007E53A8 /* Info.plist */,
 			);
 			path = NATagTextView;
@@ -87,6 +90,14 @@
 				E70E3BE61E98F64F007E53A8 /* Info.plist */,
 			);
 			path = NATagTextViewTests;
+			sourceTree = "<group>";
+		};
+		E77AF7FA1E9FC87B00AF14E5 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				E77AF7FB1E9FC88F00AF14E5 /* String.swift */,
+			);
+			name = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,6 +213,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E77AF7FC1E9FC88F00AF14E5 /* String.swift in Sources */,
 				E756F6631E9F5E6F00300C9D /* NATagTextView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -327,6 +339,7 @@
 		E70E3BEB1E98F64F007E53A8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
@@ -348,6 +361,7 @@
 		E70E3BEC1E98F64F007E53A8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;

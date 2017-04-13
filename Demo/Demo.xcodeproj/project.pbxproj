@@ -15,7 +15,7 @@
 		E756F6891E9F6D2F00300C9D /* NATagTextView.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E756F6861E9F6CE600300C9D /* NATagTextView.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		E756F68F1E9F703D00300C9D /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E756F68C1E9F703C00300C9D /* Info.plist */; };
 		E756F6901E9F703D00300C9D /* NATagTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E756F68E1E9F703D00300C9D /* NATagTextView.swift */; };
-		E756F6921E9F8A1C00300C9D /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = E756F6911E9F8A1C00300C9D /* String.swift */; };
+		E77AF7FE1E9FC8B400AF14E5 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77AF7FD1E9FC8B400AF14E5 /* String.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -44,7 +44,7 @@
 		E756F68C1E9F703C00300C9D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E756F68D1E9F703C00300C9D /* NATagTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NATagTextView.h; sourceTree = "<group>"; };
 		E756F68E1E9F703D00300C9D /* NATagTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NATagTextView.swift; sourceTree = "<group>"; };
-		E756F6911E9F8A1C00300C9D /* String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		E77AF7FD1E9FC8B400AF14E5 /* String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = String.swift; path = Extension/String.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,7 +112,7 @@
 		E756F6951E9F8A5C00300C9D /* Extension */ = {
 			isa = PBXGroup;
 			children = (
-				E756F6911E9F8A1C00300C9D /* String.swift */,
+				E77AF7FD1E9FC8B400AF14E5 /* String.swift */,
 			);
 			name = Extension;
 			sourceTree = "<group>";
@@ -194,7 +194,7 @@
 			files = (
 				E756F6901E9F703D00300C9D /* NATagTextView.swift in Sources */,
 				E756F6761E9F6CC000300C9D /* ViewController.swift in Sources */,
-				E756F6921E9F8A1C00300C9D /* String.swift in Sources */,
+				E77AF7FE1E9FC8B400AF14E5 /* String.swift in Sources */,
 				E756F6741E9F6CC000300C9D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -359,6 +359,7 @@
 				E756F6841E9F6CC000300C9D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
