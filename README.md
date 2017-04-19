@@ -7,7 +7,14 @@ Custom UITextView with **TAG** written in Swift.
 
 <img src="https://github.com/natmark/NATagTextView/blob/master/screenshot.gif?raw=true" width="40%" height="40%"></img>
 
-## Usage with Storyboard
+## Usage
+```Swift
+    lazy var tagTextView:NATagTextView = {
+        return NATagTextView(frame: frame)
+    }()
+```
+
+### Usage with Storyboard
 Connect the UITextView to NATagTextView Class
 ![Storyboard setting](https://github.com/natmark/NATagTextView/blob/master/storyboard.png?raw=true)
 ```Swift
